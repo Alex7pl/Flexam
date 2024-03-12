@@ -14,8 +14,11 @@
 
     <?php
         // Establecer conexión a la base de datos
-        // Reemplaza 'host', 'usuario', 'contraseña' y 'basededatos' con los valores correspondientes
-        $conn = new mysqli('host', 'usuario', 'contraseña', 'basededatos');
+        $servername = "localhost";
+        $username = "root";
+        $database = "flexam";
+
+        $conn = new mysqli($servername, $username, '', $database);
         
         $test_id = $_GET['test_id'];
     

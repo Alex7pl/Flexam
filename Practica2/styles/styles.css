@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1f1f1f;
+    color: #ffffff; /* Cambiamos el color del texto para asegurar que sea legible en modo oscuro */
+}
+
+header {
+    background-color: #2ca2c9; /* Nuevo color principal */
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+    color: white; /* Aseguramos que el texto sea blanco para mayor legibilidad */
+}
+
+footer {
+    background-color: #2ca2c9; /* Nuevo color principal */
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 360px;
+    padding: 20px;
+    margin: auto;
+}
+
+.test-container, .results-container {
+    margin: 20px;
+    background-color: #2a2a2a; /* Un color ligeramente más claro para el fondo de estos contenedores */
+    padding: 10px; /* Añadimos padding para mejor estética */
+    border-radius: 5px; /* Añadimos bordes redondeados */
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-group label {
+    display: block;
+}
+
+form .form-group input[type="text"],
+form .form-group input[type="password"],
+form .form-group input[type="submit"],
+form .form-group input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333; /* Fondo oscuro para los campos del formulario */
+    border: none; /* Eliminamos el borde */
+    color: white; /* Texto blanco para mejor legibilidad */
+}
+
+form .btn-primary {
+    background-color: #2ca2c9; /* Nuevo color principal */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form .btn-default {
+    background-color: #4a4a4a; /* Un gris oscuro para el botón por defecto */
+    border: 1px solid #636363; /* Borde ligeramente más claro para definición */
+    color: white; /* Texto blanco para legibilidad */
+    padding: 10px;
+    cursor: pointer;
+}
+
 .card {
     border: 1px solid #ccc;
     border-radius: 5px;
