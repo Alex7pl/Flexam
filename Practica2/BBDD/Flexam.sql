@@ -115,7 +115,7 @@ ALTER TABLE `respuesta_usuario` ADD FOREIGN KEY (`ID_test`) REFERENCES `tests` (
 
 ALTER TABLE `respuesta_usuario` ADD FOREIGN KEY (`ID_usuario`) REFERENCES `usuarios` (`ID_usuario`);
 
----------- Insercion de datos ----------
+  /* Insercion de datos */
 -- Insertando universidades
 INSERT INTO `universidades` (`nombre`, `abreviatura`, `ciudad`) VALUES
 ('Universidad Complutense de Madrid', 'UCM', 'Madrid'),
@@ -211,7 +211,7 @@ SET @medicina_id := (SELECT `ID_grado` FROM `grados` WHERE `nombre` = 'Grado en 
 INSERT INTO `grado_asignatura` (`ID_grado`, `ID_asignatura`) SELECT @derecho_id, `ID_asignatura` FROM `asignaturas` WHERE `ID_universidad` = 3 AND `abreviatura` IN ('DR', 'DCIV');
 INSERT INTO `grado_asignatura` (`ID_grado`, `ID_asignatura`) SELECT @medicina_id, `ID_asignatura` FROM `asignaturas` WHERE `ID_universidad` = 3 AND `abreviatura` IN ('AH', 'BQ', 'FIS');
 
------ CREACION TESTS ------
+/* CREACION TESTS */
 -- Insertar el test de Marketing
 INSERT INTO `tests` (`titulo`, `ID_usuario`, `num_preguntas`, `es_publico`, `es_anonimo`) VALUES
 ('Preparación examen final de Marketing', 1, 7, TRUE, FALSE);
@@ -398,12 +398,6 @@ INSERT INTO `opciones` (`ID_test`, `ID_pregunta`, `ID_opcion`, `opcion`, `correc
 (@test_id, @pregunta_id, 3, "c) Independencia, integridad, objetividad, parcialidad, secreto profesional y competencia profesional.", 0),
 (@test_id, @pregunta_id, 4, "d) Independencia, integridad, objetividad, imparcialidad, secreto profesional y competencia estructural.", 0);
 
--- Pregunta 11
-INSERT INTO `preguntas` (`ID_test`, `pregunta`) VALUES
-(@test_id, "¿Qué definición se ajusta mejor al contenido de la norma ISO/IEC 17021?");
-SET @pregunta_id := LAST_INSERT_ID();
-INSERT INTO `opciones` (`ID_test`, `ID_pregunta`, `ID_opcion`, `opcion`, `correcta`) VALUES
-(@test_id, @pregunta_id, 1, "a) Las fases o acciones de un proceso de auditoría según la norma ISO 19011.", 0),
-(@test_id, @pregunta_id, 2, "b) Las fases o acciones de un proceso de auditoría según la norma ISO 27007.", 0),
-(@test_id, @pregunta_id, 3, "c) Requisitos para entidades auditoras y certificadoras de sistemas de gestión.", 1),
-(@test_id, @pregunta_id, 4, "d) Requisitos para entidades acreditadoras y certificadoras de sistemas de gestión.", 0);
+
+INSERT INTO `test_asignatura` (`ID_test`, `ID_universidad`, `ID_asignatura`) VALUES 
+('1', '1', '5'), ('2', '1', '4'); 
