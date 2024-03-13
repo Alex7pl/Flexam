@@ -173,7 +173,7 @@
                     <strong class="mytitle">Alejandro Paniagua</strong>
                     <p class="email">Email: alejpani@ucm.es</p>
                     <p class="description">Fanático del ajedrez, la programación en Python y la astronomía. Siempre curioso por aprender más sobre el universo y la inteligencia artificial.</p>
-                    <a href="mailto:alejpani@ucm.es" class="card-button">Enviar Correo</a>
+                    <a href="mailto: alejpani@ucm.es" class="card-button">Enviar Correo</a>
                 </div>
             </div>
 
@@ -186,7 +186,7 @@
                     <strong class="mytitle">Daniel García</strong>
                     <p class="email">Email:dgarci27@ucm.es</p>
                     <p class="description">Apasionado por los deportes de todo tipo, la programación y las series. Siempre en busca de aventuras y desafíos.</p>
-                    <a href="mailto:dgarci27@ucm.es" target="_blank" class="card-button">Enviar Correo</a>
+                    <a href="mailto: dgarci27@ucm.es" target="_blank" class="card-button">Enviar Correo</a>
                 </div>
             </div>
 
@@ -199,7 +199,7 @@
                     <strong class="mytitle">Martin Veselinov</strong>
                     <p class="email">Email: amrtives@ucm.es</p>
                     <p class="description">Entusiasta de la moda, la música y los buenos planes. Tiene además una lista infinita de restaurantes en los que disfrutar.</p>
-                    <a href="mailto:amrtives@ucm.es" class="card-button">Enviar Correo</a>
+                    <a href="mailto: martives@ucm.es" class="card-button">Enviar Correo</a>
                 </div>
             </div>
 
@@ -212,7 +212,7 @@
                     <strong class="mytitle">Alejandro de Mateo</strong>
                     <p class="email">Email: ademateo@ucm.es</p>
                     <p class="description">Aficionado al fútbol, los videojuegos de estrategia y la cocina italiana. Nunca deja de buscar nuevos sabores y experiencias.</p>
-                    <a href="mailto:ademateo@ucm.es" class="card-button">Enviar Correo</a>
+                    <a href="mailto: ademateo@ucm.es" class="card-button">Enviar Correo</a>
                 </div>
             </div>
         </div>
