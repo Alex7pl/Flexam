@@ -192,6 +192,9 @@ INSERT INTO `asignaturas` (`ID_universidad`, `nombre`, `abreviatura`) VALUES
 (3, 'Bioquímica', 'BQ'),
 (3, 'Fisiología', 'FIS');
 
+INSERT INTO `grados` (`ID_universidad`, `nombre`) VALUES
+(4, 'Business & Management');
+
 -- Obtener IDs de grados de la UPM
 SET @arq_id := (SELECT `ID_grado` FROM `grados` WHERE `nombre` = 'Grado en Arquitectura');
 SET @aero_id := (SELECT `ID_grado` FROM `grados` WHERE `nombre` = 'Grado en Ingeniería Aeroespacial');
