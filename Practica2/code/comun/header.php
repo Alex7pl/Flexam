@@ -14,7 +14,7 @@
             <div class="separator"></div>
             <nav>
                 <ul>
-                    <li><a href="../views/miembros.php">Sobre Nosotros</a></li>
+                    <li><a href="../views/aboutus.php">Sobre Nosotros</a></li>
                     <li><a href="../views/info.php">Info</a></li>
                     <li><a href="../views/menu_tests.php">Tests</a></li>
                     <li><a href="../views/login.php">Log-in</a></li>
