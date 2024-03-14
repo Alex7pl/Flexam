@@ -1,73 +1,26 @@
 ![Logo de Flexam](Practica2/resources/imagenes/logo_sombra.png "Logo de Flexam")
 
-# FLEXAM: Aplicaciones Web - Práctica 2
-Universidad Complutense de Madrid  
-DG ADE + INGENIERÍA INFORMÁTICA  
-Fecha: 13/03/2024  
+# FLEXAM: La Revolución del Aprendizaje Digital
 
-## Miembros del equipo
-- Daniel García Miguel
-- Martin Veselinov Georgiev
-- Alejandro Paniagua López
-- Alejandro de Mateo Bodegas
+## Autores
+Alejandro de Mateo | Alejandro Paniagua | Martin Veselinov | Daniel García
 
-## Índice
-1. [Introducción](#introducción)
-2. [Listado de scripts para las vistas](#listado-de-scripts-para-las-vistas)
-   - [Funcionalidad común](#funcionalidad-común)
-   - [Página principal](#página-principal)
-   - [Información y sobre nosotros](#información-y-sobre-nosotros)
-   - [Buscar y realizar tests](#buscar-y-realizar-tests)
-   - [Estadísticas](#estadísticas)
-   - [Diagrama de scripts de vistas](#diagrama-de-scripts-de-vistas)
-3. [Listado de scripts adicionales](#listado-de-scripts-adicionales)
-4. [Estructura de la BBDD](#estructura-de-la-bbdd)
-   - [Usuarios y Relaciones Académicas](#usuarios-y-relaciones-académicas)
-   - [Evaluaciones y Preguntas](#evaluaciones-y-preguntas)
-   - [Interacción Usuario-Test](#interacción-usuario-test)
-5. [Prototipo funcional del proyecto](#prototipo-funcional-del-proyecto)
-   - [Página principal e información](#página-principal-e-información)
-   - [Login o registro](#login-o-registro)
-   - [Tests](#tests)
-   - [Estadísticas](#estadísticas-1)
-6. [Datos de acceso de los usuarios](#datos-de-acceso-de-los-usuarios)
+## Concepto
+FLEXAM es una plataforma web revolucionaria diseñada para transformar el arte de aprender y evaluar. Ofrecemos una experiencia educativa única, donde educadores, estudiantes y profesionales se convierten en creadores de tests altamente personalizables. En FLEXAM, cada test es más que una evaluación: es un portal hacia nuevos horizontes de conocimiento, adaptado a las necesidades individuales de cada usuario.
 
-## Introducción
-En esta segunda entrega del Proyecto de la asignatura de Aplicaciones Web, implementamos el 25% de toda la funcionalidad final que contendrá nuestro proyecto, incluyendo la gestión de usuarios para registro e inicio de sesión.
+## Características Clave
+- **Tests Personalizables**: Crea y comparte pruebas que se ajustan a las necesidades educativas específicas, desde la selección de preguntas hasta la puntuación.
+- **Acceso Universal y Privado**: Los tests pueden ser públicos para fomentar la colaboración y el intercambio de sabiduría, o privados para una experiencia de aprendizaje personalizada.
+- **Estadísticas Detalladas**: Transformamos datos en historias, proporcionando insights claros sobre el progreso y el potencial de cada individuo.
+- **Plataforma Colaborativa**: Un espacio para compartir conocimientos y experiencias, impulsando el crecimiento colectivo.
 
-## Listado de scripts para las vistas
-### Funcionalidad común
-- `header.php`: Información del menú superior.
-- `footer.php`: Información básica y enlace a GitHub.
+## Usuarios y Tareas
+- **Usuarios No Registrados**: Explorar y realizar tests públicos.
+- **Usuarios Registrados**: Crear, modificar y realizar tests; acceder a estadísticas detalladas; configurar privacidad.
+- **Anunciantes**: Promocionar productos o servicios en una plataforma dedicada a la educación y el desarrollo profesional.
+- **Administradores**: Supervisar y mantener la plataforma, garantizando un entorno de aprendizaje óptimo.
 
-### Página principal
-- `index.php`: HOME de la aplicación, con enlaces a áreas funcionales.
+## Visión Comercial
+FLEXAM va más allá de ser una simple plataforma de tests; es una comunidad donde la innovación se encuentra con el conocimiento. Destacamos por nuestra capacidad de adaptación a las necesidades de cada usuario, ofreciendo una herramienta de aprendizaje que es tanto personalizable como accesible. En FLEXAM, cada test abre la puerta a un aprendizaje más profundo, preparando a los usuarios no solo para exámenes futuros sino para los desafíos de la vida real. Nuestra generación de ingresos se basa en publicidad dirigida a usuarios no registrados y en planes de pago que ofrecen una experiencia más rica y sin anuncios.
 
-### Información y sobre nosotros
-- `info.php`: Detalle del funcionamiento de la aplicación.
-- `aboutus.php`: Información sobre el equipo.
-
-### Buscar y realizar tests
-- `menu_tests.php`: Menú de tests disponibles.
-- `realize_test.php`: Vista para realizar los tests.
-
-### Estadísticas
-- `resultados_test.php`: Muestra estadísticas del test realizado.
-
-### Diagrama de scripts de vistas
-Explicación de la ruta de datos de la aplicación.
-
-## Listado de scripts adicionales
-Scripts para registro, login, gestión de tests, y más.
-
-## Estructura de la BBDD
-Detalles de las tablas de usuarios, relaciones académicas, evaluaciones, preguntas, y más.
-
-## Prototipo funcional del proyecto
-Descripción del funcionamiento general del prototipo, incluyendo acceso a la plataforma, registro, realización de tests y visualización de estadísticas.
-
-## Datos de acceso de los usuarios
-- Usuario: flex
-- Contraseña: flexam
-
-Para más información, revisa la documentación completa o contacta a algún miembro del equipo.
+Bienvenidos a FLEXAM, la era del aprendizaje sin límites.
