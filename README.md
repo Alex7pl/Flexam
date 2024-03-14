@@ -1,3 +1,4 @@
+![Logo de Flexam](Practica2/resources/imagenes/logo_sombra.png "Logo de Flexam")
 
 # FLEXAM: Aplicaciones Web - Práctica 2
 Universidad Complutense de Madrid  
