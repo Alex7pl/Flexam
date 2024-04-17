@@ -1,0 +1,9 @@
+Implementada funcionalidad del menú de usuarios para ver tus propios tests y estadísticas.
+
+Implementada funcionalidad de conexión VPS
+
+Implementado uso de Aplication.php y patrón Singleton
+
+Distribución de archivos modelo 3 capas
+
+Implementación modelo 3 capas (En proceso)
