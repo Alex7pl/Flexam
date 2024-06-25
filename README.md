@@ -1,4 +1,4 @@
-![Logo de Flexam](Practica2/resources/imagenes/logo_sombra.png "Logo de Flexam")
+![Logo de Flexam](flexam/resources/imagenes/logo_sombra.png "Logo de Flexam")
 
 # FLEXAM: La Revolución del Aprendizaje Digital
 
